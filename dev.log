@@ -1,0 +1,29 @@
+
+> at@0.1.0 dev
+> next dev
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3000
+  - Environments: .env.local
+
+ ✓ Starting...
+Attention: Next.js now collects completely anonymous telemetry regarding usage.
+This information is used to shape Next.js' roadmap and prioritize features.
+You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+https://nextjs.org/telemetry
+
+ ✓ Ready in 6.6s
+ ○ Compiling / ...
+ ✓ Compiled / in 11.1s (1510 modules)
+ ✓ Compiled in 3.5s (716 modules)
+Failed to fetch activities: {
+  message: 'TypeError: fetch failed',
+  details: 'TypeError: fetch failed\n' +
+    '\n' +
+    'Caused by: Error: getaddrinfo ENOTFOUND your-project.supabase.co (ENOTFOUND)\n' +
+    'Error: getaddrinfo ENOTFOUND your-project.supabase.co\n' +
+    '    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:122:26)',
+  hint: '',
+  code: ''
+}
+ GET / 200 in 21593ms
