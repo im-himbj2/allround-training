@@ -142,7 +142,7 @@ export default function App() {
   const [jsonError, setJsonError] = useState('');
   const [scrolled, setScrolled] = useState(false);
   const [gridSize, setGridSize] = useState('md');
-  const [tweaksVisible, setTweaksVisible] = useState(false);
+  const [tweaksVisible] = useState(false);
   const [mounted, setMounted] = useState(false);
   const [loginModal, setLoginModal] = useState(false);
 
